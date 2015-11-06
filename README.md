@@ -109,6 +109,10 @@ Version 2.0 - 06/11/2015 - Update Build 8737.
 
 > --To "big data" post in format JSON and use JSON parse.
 
-License: http://creativecommons.org/licenses/by/4.0/
+##License: 
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Gurigraphics
 
 Special thanks: mdotedot
