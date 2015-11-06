@@ -1,4 +1,4 @@
-var URL_firebase = "https://stencyl.firebaseio.com/";
+var URL_firebase = "https://<app-name>.firebaseio.com/";
 
 var srt_01 = "";
 var srt_02 = "";
