@@ -21,22 +21,18 @@ Download | Archive
 
 ## Get Start
 
-1. **Create an account on firebase**.
+1.**Create an account on firebase**.
 The first thing you need to do to get started with Firebase is sign up for a free account.
 
-2. **Create an application in firebase.**.
+2.**Create an application in firebase.**.
 Access the control panel to create your application:.
 
 ## Stencyl Project
 
 1. **Create a new project in stencyl**.
-
 Access Stencyl to create your game.
 
 2. **Create Game Atributtes**.
-1.
-2.
-
 Create 24 Game Attributes (12 type number and 12 type text) with these names: 
 
 Name | Type | Name | Type |
@@ -53,78 +49,65 @@ Name | Type | Name | Type |
 **INT_10** | Number |**STR_10**|Text
 **INT_11** | Number |**STR_11**|Text
 **INT_12** | Number |**STR_12**|Text
-
 These blocks will be the "memory slots" for storing data.
 
 ## Stencyl Project
 
-3. **Start Firebase**.
-
+1.**Start Firebase**.
 Start Firebase with this block.
 
-4. **Post data in database**.
-
+2.**Post data in database**.
 Start Firebase with this block.
 
-5. **Get data of database**.
-
+3.**Get data of database**.
 Get data of database with this blocks
-
 These blocks work exactly as Game Attributes. You can use these blocks or else use original Game Attributes blocks to get date.
-
-6. **Get data of database**.
 
 ## Export Game
 
-1. **Export game as swf**.
+1.**Export game as swf**.
 
 Export game and insert in html the id="flashObject".
 <object type="application/x-shockwave-flash" id="flashObject" name="flashObject" data="game.swf" width="352" height="192">
 
-2. **Firebase source**.
+
+2.**Firebase source**.
 
 Insert firebase source in header of html
 <header>
 <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
 </header>
 
-3. **Configuration of project**.
+3.**Configuration of project**.
 
 To test your project Edit on the first line code of archive javascriptHX.js the Address of your application:
 var URL_firebase = "https://<app-name>.firebaseio.com/";
 
-4. **FirebaseHX source**
+4.**FirebaseHX source**
 
 Upload firebaseHX.js in the same folder as the Game.swf file and insert address in footer of body html
 <script src="javascriptHX.js"></script>
 </body>
 </html>
 
-5. **Template demo**
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-    <title>Game</title>
-    <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
-</head>
-<body>
-    <object type="application/x-shockwave-flash" width="640" height="480" id="flashObject" data="Game.swf">
-        <param name="movie" value="Game.swf">
-        <script src="javascriptHX.js"></script>
-</body>
-</html>
 
 ## Version History
 
 Version 1.0 - Deprecated
+
 Version 2.0 - 06/11/2015 - Update Build 8737. 
 
 > **Notes:** 
-> It works only on flash. 
-> Publish the game on a site with HTTPS address.
-> Do not change in HTML this: id="flashObject" name="flashObject".
-> There are 12 "INT blocks" to post numbers and 12 "STR blocks" to post text.
-> To "big data" post in format JSON and use JSON parse.
+
+> --It works only on flash. 
+
+> --Publish the game on a site with HTTPS address.
+
+> --Do not change in HTML this: id="flashObject" name="flashObject".
+
+> --There are 12 "INT blocks" to post numbers and 12 "STR blocks" to post text.
+
+> --To "big data" post in format JSON and use JSON parse.
 
 License: http://creativecommons.org/licenses/by/4.0/
 
