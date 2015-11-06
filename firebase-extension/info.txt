@@ -1,0 +1,6 @@
+name=Firebase Extension
+description=Create realtime games
+author=Gurigraphics
+website=https://www.youtube.com/user/gurigraphics
+version=1.0
+compatibility=all
