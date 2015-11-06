@@ -97,6 +97,8 @@ Version 1.0 - Deprecated
 
 Version 2.0 - 06/11/2015 - Update Build 8737. 
 
+Version 2.0.1 - 06/11/2015 - Bug fix: Int to Float. 
+
 > **Notes:** 
 
 > --It works only on flash. 
