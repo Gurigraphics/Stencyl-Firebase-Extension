@@ -64,7 +64,7 @@ class Firebase
 
     // --- get integer ---
 
-    public static function get(_param0:Int):Int
+    public static function get(_param0:Float):Int
     {
                
         var x2 = _param0;        
@@ -220,62 +220,62 @@ class Firebase
 
     // --- set integer ---
 
-    public static function set_int_01(_param1:Int){
+    public static function set_int_01(_param1:Float){
     var n0 = _param1;
     Engine.engine.setGameAttribute("INT_01", n0);   
     }
 
-    public static function set_int_02(_param1:Int){
+    public static function set_int_02(_param1:Float){
     var n1 = _param1;
     Engine.engine.setGameAttribute("INT_02", n1);   
     }
 
-    public static function set_int_03(_param1:Int){
+    public static function set_int_03(_param1:Float){
     var n2 = _param1;
     Engine.engine.setGameAttribute("INT_03", n2);   
     }
 
-    public static function set_int_04(_param1:Int){
+    public static function set_int_04(_param1:Float){
     var n3 = _param1;
     Engine.engine.setGameAttribute("INT_04", n3);   
     }
 
-    public static function set_int_05(_param1:Int){
+    public static function set_int_05(_param1:Float){
     var n4 = _param1;
     Engine.engine.setGameAttribute("INT_05", n4);   
     }
 
-    public static function set_int_06(_param1:Int){
+    public static function set_int_06(_param1:Float){
     var n5 = _param1;
     Engine.engine.setGameAttribute("INT_06", n5);   
     }
 
-    public static function set_int_07(_param1:Int){
+    public static function set_int_07(_param1:Float){
     var n6 = _param1;
     Engine.engine.setGameAttribute("INT_07", n6);   
     }
 
-    public static function set_int_08(_param1:Int){
+    public static function set_int_08(_param1:Float){
     var n7 = _param1;
     Engine.engine.setGameAttribute("INT_08", n7);
     }
 
-    public static function set_int_09(_param1:Int){
+    public static function set_int_09(_param1:Float){
     var n8 = _param1;
     Engine.engine.setGameAttribute("INT_09", n8);   
     }
 
-    public static function set_int_10(_param1:Int){
+    public static function set_int_10(_param1:Float){
     var n9 = _param1;
     Engine.engine.setGameAttribute("INT_10", n9);   
     }
 
-    public static function set_int_11(_param1:Int){
+    public static function set_int_11(_param1:Float){
     var n10 = _param1;
     Engine.engine.setGameAttribute("INT_11", n10);   
     }
 
-    public static function set_int_12(_param1:Int){
+    public static function set_int_12(_param1:Float){
     var n11 = _param1;
     Engine.engine.setGameAttribute("INT_12", n11);   
     }    
@@ -455,7 +455,7 @@ class Firebase
 
     // --- post integer ---
 
-    public static function post(_param0:Int, _param1:Int)
+    public static function post(_param0:Float, _param1:Int)
     {
         var x1 = _param0; // number        
         var x2 = _param1; // 0 or 1  
