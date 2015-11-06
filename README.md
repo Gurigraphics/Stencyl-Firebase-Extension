@@ -51,7 +51,7 @@ Name | Type | Name | Type |
 **INT_12** | Number |**STR_12**|Text
 These blocks will be the "memory slots" for storing data.
 
-## Stencyl Project
+## Game Project
 
 1.**Start Firebase**.
 Start Firebase with this block.
